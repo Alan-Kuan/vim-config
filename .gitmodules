@@ -1,0 +1,33 @@
+[submodule "pack/syntax/start/gruvbox"]
+	path = pack/syntax/start/gruvbox
+	url = https://github.com/morhetz/gruvbox
+[submodule "pack/syntax/start/vim-svelte"]
+	path = pack/syntax/start/vim-svelte
+	url = https://github.com/evanleck/vim-svelte
+[submodule "pack/utilities/start/auto-pairs"]
+	path = pack/utilities/start/auto-pairs
+	url = https://github.com/jiangmiao/auto-pairs
+[submodule "pack/utilities/start/editorconfig-vim"]
+	path = pack/utilities/start/editorconfig-vim
+	url = https://github.com/editorconfig/editorconfig-vim
+[submodule "pack/utilities/start/indentLine"]
+	path = pack/utilities/start/indentLine
+	url = https://github.com/Yggdroot/indentLine
+[submodule "pack/utilities/start/tcomment_vim"]
+	path = pack/utilities/start/tcomment_vim
+	url = https://github.com/tomtom/tcomment_vim
+[submodule "pack/utilities/start/vim-closetag"]
+	path = pack/utilities/start/vim-closetag
+	url = https://github.com/alvan/vim-closetag
+[submodule "pack/utilities/start/vim-easymotion"]
+	path = pack/utilities/start/vim-easymotion
+	url = https://github.com/easymotion/vim-easymotion
+[submodule "pack/utilities/start/vim-surround"]
+	path = pack/utilities/start/vim-surround
+	url = https://github.com/tpope/vim-surround
+[submodule "pack/utilities/start/fzf.vim"]
+	path = pack/utilities/opt/fzf.vim
+	url = https://github.com/junegunn/fzf.vim
+[submodule "pack/utilities/opt/fzf"]
+	path = pack/utilities/opt/fzf
+	url = https://github.com/junegunn/fzf
