@@ -36,8 +36,10 @@ nnoremap <silent> <C-n> :let @/=""<CR>
 
 " indentLine
 let g:indentLine_showFirstIndentLevel = 1
+
 " vim-closetag
 let g:closetag_filetypes = 'html,vue,svelte,xml'
+
 " fzf.vim
 packadd! fzf
 packadd! fzf.vim

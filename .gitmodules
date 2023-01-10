@@ -31,3 +31,6 @@
 [submodule "pack/utilities/opt/fzf"]
 	path = pack/utilities/opt/fzf
 	url = https://github.com/junegunn/fzf
+[submodule "pack/syntax/opt/nginx.vim"]
+	path = pack/syntax/start/nginx.vim
+	url = https://github.com/chr4/nginx.vim
