@@ -44,3 +44,5 @@ let g:closetag_filetypes = 'html,vue,svelte,xml'
 packadd! fzf
 packadd! fzf.vim
 set rtp+=/usr/bin/fzf
+
+nnoremap <silent> <Leader>fg :Rg<CR>
