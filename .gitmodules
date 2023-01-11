@@ -34,3 +34,6 @@
 [submodule "pack/syntax/opt/nginx.vim"]
 	path = pack/syntax/start/nginx.vim
 	url = https://github.com/chr4/nginx.vim
+[submodule "pack/syntax/opt/vim-terraform"]
+	path = pack/utilities/start/vim-terraform
+	url = https://github.com/hashivim/vim-terraform
