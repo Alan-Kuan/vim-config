@@ -18,8 +18,8 @@ filetype plugin indent on
 syntax on
 
 autocmd vimenter * ++nested colorscheme gruvbox
-set termguicolors
 set background=dark
+set t_Co=256
 
 let &t_SI = "\<Esc>[6 q"
 let &t_SR = "\<Esc>[4 q"
