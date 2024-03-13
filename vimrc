@@ -49,3 +49,4 @@ packadd! fzf.vim
 set rtp+=/usr/bin/fzf
 
 nnoremap <silent> <Leader>fg :Rg<CR>
+nnoremap <silent> <Leader>ff :FZF<CR>
