@@ -40,3 +40,6 @@
 [submodule "pack/syntax/start/vim-json"]
 	path = pack/syntax/start/vim-json
 	url = https://github.com/elzr/vim-json.git
+[submodule "pack/utilities/start/nerdtree"]
+	path = pack/utilities/start/nerdtree
+	url = https://github.com/preservim/nerdtree.git

@@ -17,7 +17,11 @@ set mouse=a
 filetype plugin indent on
 syntax on
 
-autocmd vimenter * ++nested colorscheme gruvbox
+augroup Colorscheme
+    autocmd!
+    autocmd vimenter * ++nested colorscheme gruvbox
+augroup END
+
 set background=dark
 set t_Co=256
 
@@ -50,3 +54,14 @@ set rtp+=/usr/bin/fzf
 
 nnoremap <silent> <Leader>fg :Rg<CR>
 nnoremap <silent> <Leader>ff :FZF<CR>
+
+" NERDTree
+nnoremap <silent> - :NERDTreeToggle<CR>
+
+augroup NERDTree
+    autocmd!
+    " Exit Vim if NERDTree is the only window remaining in the only tab.
+    autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
+    " Close the tab if NERDTree is the only window remaining in it.
+    autocmd BufEnter * if winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
+augroup END
