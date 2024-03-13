@@ -14,7 +14,7 @@ set ignorecase
 set smartcase
 set mouse=a
 
-filetype indent on
+filetype plugin indent on
 syntax on
 
 autocmd vimenter * ++nested colorscheme gruvbox
