@@ -13,6 +13,10 @@ set incsearch
 set ignorecase
 set smartcase
 set mouse=a
+set laststatus=2
+set noshowmode
+set splitbelow
+set splitright
 
 filetype plugin indent on
 syntax on

@@ -43,3 +43,6 @@
 [submodule "pack/utilities/start/nerdtree"]
 	path = pack/utilities/start/nerdtree
 	url = https://github.com/preservim/nerdtree.git
+[submodule "pack/utilities/start/lightline.vim"]
+	path = pack/utilities/start/lightline.vim
+	url = https://github.com/itchyny/lightline.vim
