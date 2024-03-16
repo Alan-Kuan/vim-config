@@ -8,6 +8,7 @@ set cursorline
 set expandtab
 set tabstop=4
 set shiftwidth=4
+set cinoptions=':0'
 set hlsearch
 set incsearch
 set ignorecase
