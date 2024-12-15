@@ -57,8 +57,8 @@ packadd! fzf
 packadd! fzf.vim
 set rtp+=/usr/bin/fzf
 
-nnoremap <silent> <Leader>fg :Rg<CR>
-nnoremap <silent> <Leader>ff :Files<CR>
+nnoremap <silent> <C-_> :Rg<CR>
+nnoremap <silent> <C-p> :Files<CR>
 
 " NERDTree
 nnoremap <silent> - :NERDTreeToggle<CR>
